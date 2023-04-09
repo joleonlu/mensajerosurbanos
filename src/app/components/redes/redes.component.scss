@@ -1,0 +1,148 @@
+
+.box {
+  border: none;
+  padding: 20px;
+
+
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+.column {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+
+.caixa {
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  justify-content: center;
+}
+
+.column {
+
+  width: calc(25% - 10px);
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+
+
+#seguidores{
+  color: rgb(50, 220, 149);
+}
+
+#no-seguidores{
+  color: rgb(220, 24, 24);
+}
+
+.row .column:nth-child(1) {
+  background-color: #007bff1a;
+}
+.row .column:nth-child(2) {
+  background-color: #007bff1a;
+}
+.row .column:nth-child(3) {
+  background-color: #007bff1a;
+}
+.row .column:nth-child(4) {
+  background-color: #007bff1a;
+}
+
+#red1 {
+  border-top: 3px solid hsl(208, 92%, 53%);
+  transition: border-top 0.2s;
+  cursor: pointer;
+}
+
+#red1:hover {
+  border-top: 6px solid hsl(208, 92%, 53%);
+}
+
+
+#red2 {
+
+  border-top: 3px solid hsl(203, 89%, 53%);
+  transition: border-top 0.2s;
+  cursor: pointer;
+}
+
+#red2:hover {
+  border-top: 6px solid hsl(203, 89%, 53%);
+}
+
+#red3 {
+  border: 0;
+  border-top: 3px solid;
+  border-image: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f77737, #ffc837) 1;
+  transition: border-top 0.2s;
+  cursor: pointer;
+}
+
+#red3:hover {
+  border-top: 6px solid #ce03b9e4;
+}
+
+#red4 {
+  border-top: 3px solid #f90202;
+  transition: border-top 0.2s;
+  cursor: pointer;
+
+}
+
+#red4:hover {
+  border-top: 6px solid #f70606;
+}
+
+
+#number-of-follo{
+
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#view{
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #b8b8b8;
+}
+.redes.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+
+@media (max-width: 375px) {
+  .column {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+
+@media (min-width: 376px) and (max-width: 1440px) {
+  .column {
+    width: calc(25% - 20px);
+    margin-right: 20px;
+  }
+}

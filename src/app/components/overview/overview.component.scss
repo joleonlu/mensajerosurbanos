@@ -1,0 +1,160 @@
+
+
+.title{
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 40%;
+  padding: 8px;
+  color: #948f8fc9;
+  font-family: Arial, Helvetica, sans-serif;
+  width: calc(25% - 10px);
+   margin-right: 40px;
+  margin-left: 40px;
+}
+
+
+
+.container {
+  display: flex;
+  width: 40%;
+  align-items:center;
+  justify-content: space-around;
+  padding: 2px;
+  background-color: #007bff1a;
+  box-sizing: border-box;
+  border: transparent;
+  margin: 0 30px;
+  border-radius: 10px;
+  width: calc(25% - 10px);
+   margin-right: 40px;
+  margin-left: 40px;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.container-parent {
+  display: flex;
+  white-space: pre-wrap;
+  margin-top: 20px;
+  width: 100%;
+
+}
+
+.container-parent1 {
+  display: flex;
+  white-space: pre-wrap;
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  overflow: hidden;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  overflow: hidden;
+}
+
+
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+}
+
+
+
+.page-views {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.facebook-icon
+{
+  margin-top: 10px;
+  margin-left: 55%;
+  margin-bottom: 10%;
+
+}
+
+.input2 {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: 10px;
+  margin-left: 100px;
+  background-color: #007bff04;
+  border: none;
+  width: 50%; /* Ajusta el ancho del input */
+}
+
+
+.page-views {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: rgba(85, 91, 91, 0.883);
+  width: 100%; /* Ajusta el ancho del contenedor padre */
+}
+
+.input-group input {
+  background-color:  #007bff04;
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
+  width: 80%;
+  height: 40px;
+
+
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+.dark-mode h3 {
+  color: #fff;
+}
+
+
+.dark-mode input {
+  color: #fff;
+}
+
+
+
+@media (max-width: 375px) {
+  .column {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+
+@media (min-width: 376px) and (max-width: 1440px) {
+  .column {
+    width: calc(25% - 20px);
+    margin-right: 20px;
+  }
+}
+

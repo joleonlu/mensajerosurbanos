@@ -1,0 +1,18 @@
+
+
+
+<header [ngClass]="{'dark-mode': isDarkMode}">
+  <div class="header-text">
+    <h1>{{ header }}</h1>
+    <p>{{ followers }}</p>
+  </div>
+  <label class="switch">
+    <input type="checkbox" (click)="toggleDarkMode()">
+
+    <span class="slider round"></span>
+
+  </label>
+</header>
+
+
+
